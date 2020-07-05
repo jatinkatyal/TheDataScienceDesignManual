@@ -1,0 +1,15 @@
+Before analyzing the data it must be cleaned, analying raw data can lead to wrong conclusions. At times during the cleaning process issues arises, these are called artifacts. These can be corrected by reversing the steps you took before obtaining the artifacts. It a good practice to safekeep data source and work on a copy of it instead. To detect such artifacts one can look for unexpected or suprising observations, one should always question observations that are too good to be true as these can be one of the artifacts.
+
+Compaarisons should be apples to apples otherwise it is meaningless. For this data must be compatible i.e., same units, timezones, currency etc. 
+Sticking to a single system of units is the best way, also one should be aware of what sytem of units the data is available for before using it. 
+Some algorithms are better with numerical data, it is advised to encode features into numbers before use.
+Use of Ids as keys, texts can be inconsistent.
+
+Missing values can be a real pain, not all data sets are complete. This can be dealt with imputation.
+Filling in with a reasonable educated guess., it can be a quick way.
+Mean, Median, Mode to the rescue, these statistics can be used to fill missing values.
+Random value imputation, this not advised as random values can affect final outcome.
+Nearest neighbour, using a distance function to find nearest record in data set and using its value for the column with missing value.
+Interpolation, missing values can be predicted before analysis but, this adds another obstacle and predicted value may end up an outlier.
+
+Outlier detection should always be performed, data shouldn't be considered right. There can some issue in data due to wrong entry or some other unseen cause. General check for largest and smallest values should show up outliers.

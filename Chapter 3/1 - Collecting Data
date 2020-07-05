@@ -1,0 +1,17 @@
+Finding the right data is most ccritical, one should ask who, why and how.
+
+Who has the data?
+Why they will give it to you?
+How can you get it?
+
+Usually large companies already have the data you are looking for but, they are reluctant to share it due to business and privacy issues. Some have useful APIs that can be used to  obtain the dataset, this is better way to avoid scrapers on website and increase business by giving relevant data like pricing and frequent queries.
+
+Governments also provide useful datasets, that may differ region to region. One can always check out the department's website or centralised government data platforms.
+
+Academic data sets are also good to use, the research papers have the links to these. Almost all authors provide these so others can also use it to replicate the results.
+
+If not good for your problem, you can use any crowdsourcing platform to hire people for collecting and cleaning data for you.
+
+Internet is a library and websites are books, one can find answers on webpages. This information is not directly useful, to extract it scraping is done. First spider(collect right set of pages) then scrape(stripping content for analysis).
+
+Logs can be useful source aswell, we often use it to understand behaviour of user and program whenever an error occurs. It is a good practice to store logs for future.
